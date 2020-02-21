@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1F73AB4324009CC300340BC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73AB4224009CC300340BC6 /* AppDelegate.swift */; };
 		1F73AB4524009CC300340BC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73AB4424009CC300340BC6 /* SceneDelegate.swift */; };
-		1F73AB4724009CC300340BC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73AB4624009CC300340BC6 /* ViewController.swift */; };
 		1F73AB4A24009CC300340BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F73AB4824009CC300340BC6 /* Main.storyboard */; };
 		1F73AB4C24009CC500340BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F73AB4B24009CC500340BC6 /* Assets.xcassets */; };
 		1F73AB4F24009CC500340BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F73AB4D24009CC500340BC6 /* LaunchScreen.storyboard */; };
 		1F73AB5A24009CC500340BC6 /* TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73AB5924009CC500340BC6 /* TumblrTests.swift */; };
+		1F73AB6524009CF000340BC6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73AB6424009CF000340BC6 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		1F73AB3F24009CC300340BC6 /* Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F73AB4224009CC300340BC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F73AB4424009CC300340BC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F73AB4624009CC300340BC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F73AB4924009CC300340BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F73AB4B24009CC500340BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F73AB4E24009CC500340BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		1F73AB5524009CC500340BC6 /* TumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F73AB5924009CC500340BC6 /* TumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrTests.swift; sourceTree = "<group>"; };
 		1F73AB5B24009CC500340BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F73AB6424009CF000340BC6 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 		1F73AB4124009CC300340BC6 /* Tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				1F73AB6424009CF000340BC6 /* PhotosViewController.swift */,
 				1F73AB4224009CC300340BC6 /* AppDelegate.swift */,
 				1F73AB4424009CC300340BC6 /* SceneDelegate.swift */,
-				1F73AB4624009CC300340BC6 /* ViewController.swift */,
 				1F73AB4824009CC300340BC6 /* Main.storyboard */,
 				1F73AB4B24009CC500340BC6 /* Assets.xcassets */,
 				1F73AB4D24009CC500340BC6 /* LaunchScreen.storyboard */,
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F73AB4724009CC300340BC6 /* ViewController.swift in Sources */,
+				1F73AB6524009CF000340BC6 /* PhotosViewController.swift in Sources */,
 				1F73AB4324009CC300340BC6 /* AppDelegate.swift in Sources */,
 				1F73AB4524009CC300340BC6 /* SceneDelegate.swift in Sources */,
 			);
