@@ -79,10 +79,10 @@
 		1F73AB4124009CC300340BC6 /* Tumblr */ = {
 			isa = PBXGroup;
 			children = (
-				1F73AB6424009CF000340BC6 /* PhotosViewController.swift */,
 				1F73AB4224009CC300340BC6 /* AppDelegate.swift */,
 				1F73AB4424009CC300340BC6 /* SceneDelegate.swift */,
 				1F73AB4824009CC300340BC6 /* Main.storyboard */,
+				1F73AB6424009CF000340BC6 /* PhotosViewController.swift */,
 				1F73AB4B24009CC500340BC6 /* Assets.xcassets */,
 				1F73AB4D24009CC500340BC6 /* LaunchScreen.storyboard */,
 				1F73AB5024009CC500340BC6 /* Info.plist */,
